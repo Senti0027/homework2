@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="請輸入3個數值" HorizontalAlignment="Left" Margin="40,33,0,0" VerticalAlignment="Top" Width="210" Height="35" Foreground="#FFE90D0D" FontSize="18" FontWeight="Bold"/>
+        <Label Content="請輸入3個數值" HorizontalAlignment="Left" Margin="40,33,0,0" VerticalAlignment="Top" Width="210" Height="35" Foreground="#FFE90D0D" FontSize="18" FontWeight="Bold" />
         <TextBox x:Name="box" HorizontalAlignment="Left" Margin="191,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="35" FontSize="18" Background="#FFFFF0DE"/>
         <TextBox x:Name="box2" HorizontalAlignment="Left" Margin="325,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="35" FontSize="18" Background="#FFFFF0DE" RenderTransformOrigin="-0.059,0.617"/>
         <TextBox x:Name="box3" HorizontalAlignment="Left" Margin="456,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="35" FontSize="18" Background="#FFFFF0DE" RenderTransformOrigin="-0.885,0.681"/>
-        <Button x:Name="button1" Content="OK" HorizontalAlignment="Left" Margin="640,31,0,0" VerticalAlignment="Top" Height="35" Width="100" FontSize="18" Click="button1_Click"/>
-        <Label x:Name="lab" HorizontalAlignment="Left" Margin="40,87,0,0" VerticalAlignment="Top" Width="701" Height="79" Foreground="White" FontSize="18" FontWeight="Bold" Background="#FFDBF5E7" Content=""/>
-        <TextBlock x:Name="block" Margin="40,196,60,30">
+        <Button x:Name="button1" Content="OK"  Margin="640,33,60,0" VerticalAlignment="Top" Height="35" FontSize="18" Click="button1_Click"/>
+        <Label x:Name="lab" Margin="40,87,60,0" VerticalAlignment="Top" Height="79" Foreground="White" FontSize="18" FontWeight="Bold" Background="#FFDBF5E7" Content=""/>
+        <TextBlock x:Name="block" Margin="40,196,60,30" Text="" Foreground="#FF087CCC" FontSize="20">
             <TextBlock.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF9F6AE" Offset="1"/>
